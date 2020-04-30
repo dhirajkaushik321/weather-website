@@ -3,6 +3,7 @@ const express=require('express');
 const hbs=require('hbs');
 const myWeather=require('./utils/weather.js');
 const app=express();
+const port=process.env.PORT || 3000;
 //Define paths for express congig
 const publicDirectoryPath=path.join(__dirname,'../public');
 const viewsPath=path.join(__dirname,'../templates/views');
@@ -54,6 +55,6 @@ app.get('*',(req,res)=>{
 		errorMessage:"Page not found"
 	});
 })
-app.listen(3000,()=>{
+app.listen(port,()=>{
 	console.log("Server is running on port no 3000");
 })
