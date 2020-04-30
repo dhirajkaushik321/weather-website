@@ -1,0 +1,83 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+img{
+	opacity: 2;
+}
+h1{
+	color:#444;
+	font-size: 3.5rem;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 25%;
+	margin-top:2%; 
+	margin-bottom:2%;
+}
+.mynavbar{
+/*	background-color: #EAF4F4;	
+*/	padding: 30px;
+}
+.navItem{
+	color: #888;
+	font-size: 1.2rem;
+	margin: 2rem;
+	text-decoration: none;
+}
+.navItemContainer{
+	margin-left:23%; 
+}
+.navItem:hover{
+	color:#222;
+	text-decoration: none;
+}
+footer{
+	position: absolute;
+	bottom: 10px;
+}
+footer p{
+	opacity: 0.8;
+}
+.font-awesome{
+	width: 28px;
+	height: 28px;
+	margin-left:25px;
+	margin-bottom: 20px;
+	opacity: 0.5;
+}
+.font-awesome:hover{
+	opacity: 1;
+}
+.form{
+	margin-left:25%; 
+}
+input{
+	border:2px solid #bbb;
+	padding: 6px;
+	margin: 15px;
+}
+.weatherIconInvisible{
+	display: none;
+}
+.info{
+	background-color: #555;
+	display:inline-block;
+	padding: 25px;
+}
+.infoElement{
+	font-size: 1.8rem;
+	color: cyan;
+	font-weight: 500;
+}
+.form img{
+	display: block;
+}
+.loading{
+	font-size:1.6rem;
+	color: red;
+	font-weight: 600;
+}
+.title{
+	color:#fff;
+	font-size: 1.8rem;
+	font-weight: 600;
+}
