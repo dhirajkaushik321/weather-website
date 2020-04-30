@@ -1,4 +1,3 @@
-console.log('Javascript service for browser');
 // Submitting a forms
 const search=document.querySelector('input');
 const messageOne=document.querySelector('#messageOne');
