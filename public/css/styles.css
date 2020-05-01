@@ -49,6 +49,7 @@ footer p{
 }
 .form{
 	margin-left:25%; 
+	width:80%;
 }
 input{
 	border:2px solid #bbb;
@@ -80,4 +81,17 @@ input{
 	color:#fff;
 	font-size: 1.8rem;
 	font-weight: 600;
+}
+.profile{
+	width:250px;
+	height: 320px;
+	border-radius: 100%;
+	margin-left: 26%;
+	display: inline-block;
+}
+.intro{
+	width:30%;
+	margin-left:22%;
+	text-align: center;
+	font-size: 1.4rem;
 }
